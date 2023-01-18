@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>project html</Html></title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <header>
@@ -24,7 +25,9 @@
       <section>
         <h2 id="about">About</h2>
         <p>Hi,This is Rafik . I am a Web Developer.</p>
+        <div class="image">
         <img src="w.jpg" alt="html checkpoint">
+        </div>
       </section>
       <section id="work">
         <h2>Work</h2>
@@ -42,21 +45,22 @@
       </section>
     </main>
     <footer>
-        <form>
+        <form class="myform">
+          <div> <label >Name</label>
+                
+            <input type="text">
+        </div>
+           
             <div>
-                <label >name</label>
+                <label>E-mail</label>
                 <input type="text">
             </div>
             <div>
-                <label>email</label>
-                <input type="text">
-            </div>
-            <div>
-                <label>birthday</label>
+                <label>Birthday</label>
                 <input type="date">
             </div>
             <div>
-                <label>password</label>
+                <label>Password</label>
                 <input type="password">
             </div>
             <input type="submit" value="submit">

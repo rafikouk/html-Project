@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=roboto&display=swap');
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    color:rgb(139, 61, 66);
+}
+
+p{
+    border: 6px solid chocolate ;
+}
+
+li {
+    display: inline ;
+}
+
+nav{
+    color: rgb(255, 0, 0);
+}
+
+.image img{
+    width: 100%;
+}
+
+
+#work p{
+    text-align:center; color: green
+    ;
+}
+ footer  div{
+ color:orchid;
+ }
+
+ footer form input{
+    color: firebrick;
+ }
+ section h2 p{
+    color: blue;
+ }
+ p {
+    color: blue;
+}
+
+p {
+    text-align: center;
+}
+footer{
+    border: 1 solid #333;
+    width: 200px;
+}
+.myform input{
+    width: 100%;
+}
